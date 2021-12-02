@@ -103,4 +103,5 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:VectorRo/VectorRo.github.io
+  repo: https://github.com/VectorRo/VectorRo.github.io
+  branch: master
