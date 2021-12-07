@@ -1,7 +1,7 @@
 ---
-title: text post
+title: Zotero+Pandoc引用文献到Typora（Test）
 date: 2021-12-06 20:24:04
-tags: text
+tags: Text
 ---
 ## Zotero+Pandoc引用文献到Typora
 
@@ -43,7 +43,7 @@ tags: text
 
   基本操作是 对 @citation key 标识进行 `Refresh`  形成字符 →  在文末添加 Bibliography
 
-  <img src="E:\WorkStation\Typora\PIC\image-20211130215749274.png" alt="image-20211130215749274" style="zoom:67%;" />
+<img src="https://s2.loli.net/2021/12/07/AKCY19BvfpWk2tO.png" alt="image-20211207184024147" style="zoom:67%;" />
 
 > 参考阅读
 >
