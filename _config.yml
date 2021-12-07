@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 原住民
+title: 原住地
 subtitle: ''
 description: ''
 keywords:
@@ -97,7 +97,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Acetolog
+remote_theme: VectorRo/VectorRo.github.io/themes/Acetolog
+#theme:  Acetolog
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
