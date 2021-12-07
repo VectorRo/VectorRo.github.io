@@ -16,8 +16,8 @@
 
             <div class="al_sidebar_author_info">
                 <h4>{{ config.author }}</h4>
-                <img class="al_sidebar_avatar" src="{{ config.avatar || theme.avatar || '' }}">
-                <p>{{ config.description }}</p>
+                <img class="al_sidebar_avatar" src="https://s2.loli.net/2021/12/07/qDFfLcmCxE15jwZ.png">
+                <p>这个人很懒，还没有写自我介绍</p>
             </div>
 
             {% if theme.contact.enable === true %}
