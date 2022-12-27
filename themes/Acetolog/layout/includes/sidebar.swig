@@ -17,7 +17,7 @@
             <div class="al_sidebar_author_info">
                 <h4>{{ config.author }}</h4>
                 <img class="al_sidebar_avatar" src="https://s2.loli.net/2021/12/07/qDFfLcmCxE15jwZ.png">
-                <p>=鹅，来自界外的不明生物。热爱睡觉，讨厌重复性劳动。为了生存和丰盛的晚餐，已投入到“让地球变得更好”的终身工作中，正在不断创造价值和新事物。目标是同人类和平共处。</p>
+                <p>鹅，来自界外的不明生物。热爱睡觉，讨厌重复性劳动。为了生存和明天的晚餐，正在不断创造价值和新事物。愿望是同人类相安无事。理想是让地球变得更好。</p>
             </div>
 
             {% if theme.contact.enable === true %}
