@@ -1,7 +1,7 @@
 ---
-title: Zotero+Pandoc引用文献到Typora（Test）
+title: Zotero+Pandoc引用文献到Typora
 date: 2021-12-06 20:24:04
-tags: Text
+tags: Test
 ---
 ## Zotero+Pandoc引用文献到Typora
 
@@ -49,4 +49,4 @@ tags: Text
 >
 > - [使用 Zotero 在 Markdown 中优雅地处理参考文献](https://sspai.com/post/60825)
 > - [整合 zotero, pandoc 进行文献引用](https://blog.csdn.net/dragonlk0/article/details/120099751)
-> - [Markdown官方](
+> - [Markdown官方](https://markdown.com.cn/)
