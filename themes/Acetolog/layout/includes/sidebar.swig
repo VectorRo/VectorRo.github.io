@@ -20,59 +20,73 @@
                 <p>来自界外的不明生物。热爱睡觉，讨厌重复劳动。为了生存和明天的晚餐，正在不断创造价值与新事物。愿望是同人类相安无事。理想是让地球变得更好。</p>
             </div>
 
-            {% if theme.contact.enable === true %}
-                <div class="al_sidebar_contact_info">
-                    <h4>GET IN TOUCH</h4>
-                    <p>{{ theme.contact.description }}</p>
+            
+            <div class="al_sidebar_contact_info">
+                <h4>GET IN TOUCH</h4>
+                <p> </p>
 
-                    <div class="dis_flex al_sidebar_social_widget">
-                        {# Facebook widget #}
-                        {% if theme.contact.facebook.enable === true %}
-                            <div class="al_social_icon_cnt" data_link="https://www.facebook.com/{{ theme.contact.facebook.username }}">
-                                <svg class="al_social_icon" id="facebook">
-                                    <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_facebook"></use>
-                                </svg>
-                            </div>
-                        {% endif %}
+                <div class="dis_flex al_sidebar_social_widget">
+                    {# Facebook widget #}
+                    {% if theme.contact.facebook.enable === true %}
+                        <div class="al_social_icon_cnt" data_link="https://www.facebook.com/{{ theme.contact.facebook.username }}">
+                            <svg class="al_social_icon" id="facebook">
+                                <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_facebook"></use>
+                            </svg>
+                        </div>
+                    {% endif %}
 
-                        {# instagram widget #}
-                        {% if theme.contact.instagram.enable === true %}
-                            <div class="al_social_icon_cnt" data_link="https://www.instagram.com/{{ theme.contact.instagram.username }}">
-                                <svg class="al_social_icon" id="instagram">
-                                    <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_instagram"></use>
-                                </svg>
-                            </div>
-                        {% endif %}
+                    {# instagram widget #}
+                    {% if theme.contact.instagram.enable === true %}
+                        <div class="al_social_icon_cnt" data_link="https://www.instagram.com/{{ theme.contact.instagram.username }}">
+                            <svg class="al_social_icon" id="instagram">
+                                <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_instagram"></use>
+                            </svg>
+                        </div>
+                    {% endif %}
 
-                        {# weibo widget #}
-                        {% if theme.contact.weibo.enable === true %}
-                            <div class="al_social_icon_cnt" data_link="https://weibo.com/{{ theme.contact.weibo.username }}/">
-                                <svg class="al_social_icon" id="weibo">
-                                    <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_weibo"></use>
-                                </svg>
-                            </div>
-                        {% endif %}
+                    {# weibo widget #}
+                    {% if theme.contact.weibo.enable === true %}
+                        <div class="al_social_icon_cnt" data_link="https://weibo.com/{{ theme.contact.weibo.username }}/">
+                            <svg class="al_social_icon" id="weibo">
+                                <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_weibo"></use>
+                            </svg>
+                        </div>
+                    {% endif %}
 
-                        {# github widget #}
-                        {% if theme.contact.github.enable === true %}
-                            <div class="al_social_icon_cnt" data_link="https://www.github.com/{{ theme.contact.github.username }}">
-                                <svg class="al_social_icon" id="github">
-                                    <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_github"></use>
-                                </svg>
-                            </div>
-                        {% endif %}
-
-                        {# twitter widget #}
-                        {% if theme.contact.twitter.enable === true %}
-                            <div class="al_social_icon_cnt" data_link="https://www.twitter.com/{{ theme.contact.twitter.username }}/">
-                                <svg class="al_social_icon" id="twitter">
-                                    <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_twitter"></use>
-                                </svg>
-                            </div>
-                        {% endif %}
+                    {# github widget #}
+                
+                    <div class="al_social_icon_cnt" data_link="https://www.github.com/vectorro">
+                        <svg class="al_social_icon" id="github">
+                            <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_github"></use>
+                        </svg>
                     </div>
+
+                    {# elfartworld widget #}
+                
+                    <div class="al_social_icon_cnt" data_link="https://www.github.com/vectorro">
+                        <svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="46" height="46">
+                            <a
+                               xlink:href="http://elfartworld.com/users/218396"
+                               xlink:title="Elf"
+                               target="_blank"
+                               >
+                               <path d="M512 0a512 512 0 1 0 0 1024A512 512 0 0 0 512 0zM300.909714 729.6a4.534857 4.534857 0 0 1-6.070857-2.413714 5.046857 5.046857 0 0 1 0-3.657143L407.625143 465.92l150.966857 150.966857-257.682286 112.786286z m428.690286-428.617143L616.813714 558.518857 465.846857 407.625143l257.682286-112.786286a4.534857 4.534857 0 0 1 6.070857 2.413714 5.046857 5.046857 0 0 1 0 3.657143z"/>
+                            </a>
+                        </svg>
+                    </div>
+                    
+
+                    {# twitter widget #}
+                    {% if theme.contact.twitter.enable === true %}
+                        <div class="al_social_icon_cnt" data_link="https://www.twitter.com/{{ theme.contact.twitter.username }}/">
+                            <svg class="al_social_icon" id="twitter">
+                                <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_twitter"></use>
+                            </svg>
+                        </div>
+                    {% endif %}
                 </div>
-            {% endif %}
+            </div>
+            
         </div>
     </div>
 </div>

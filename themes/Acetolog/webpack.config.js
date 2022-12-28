@@ -13,6 +13,8 @@ var config =  {
 			loader: "ts-loader" 
 		}]
 	}
+	
+	
 }
 
 module.exports = (env, argv) => {
