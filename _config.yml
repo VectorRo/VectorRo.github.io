@@ -4,7 +4,7 @@
 
 # Site
 title: 原住地
-subtitle: ''
+subtitle: 'Drift Alone'
 description: ''
 keywords:
 author: Vector
@@ -106,3 +106,39 @@ deploy:
   type: git
   repo: https://github.com/VectorRo/VectorRo.github.io
   branch: master
+
+# Favicon
+favicon:
+  small: /images/favicon.ico
+  #medium: /images/favicon-32x32-next.png
+  medium: /images/favicon.ico
+  apple_touch_icon: /images/apple-touch-icon.png
+  #safari_pinned_tab: /images/logo.svg
+  #android_manifest: /manifest.json
+
+# Contact_Info
+# Contact info will be shown on the side bar.
+
+contact:
+  enable: true
+  description: 'Contact Info description'
+
+  twitter:
+    enable: false
+    username: twitter_username
+
+  github:
+    enable: true
+    username: vectorro
+
+  weibo:
+    enable: false
+    username: weibo_username
+
+  facebook:
+    enable: false
+    username: facebook_username
+
+  instagram:
+    enable: false
+    username: instagram_username
