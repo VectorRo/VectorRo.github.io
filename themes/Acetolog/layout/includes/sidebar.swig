@@ -63,15 +63,9 @@
 
                     {# elfartworld widget #}
                 
-                    <div class="al_social_icon_cnt" data_link="https://www.github.com/vectorro">
-                        <svg viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" width="46" height="46">
-                            <a
-                               xlink:href="http://elfartworld.com/users/218396"
-                               xlink:title="Elf"
-                               target="_blank"
-                               >
-                               <path d="M512 0a512 512 0 1 0 0 1024A512 512 0 0 0 512 0zM300.909714 729.6a4.534857 4.534857 0 0 1-6.070857-2.413714 5.046857 5.046857 0 0 1 0-3.657143L407.625143 465.92l150.966857 150.966857-257.682286 112.786286z m428.690286-428.617143L616.813714 558.518857 465.846857 407.625143l257.682286-112.786286a4.534857 4.534857 0 0 1 6.070857 2.413714 5.046857 5.046857 0 0 1 0 3.657143z"/>
-                            </a>
+                    <div class="al_social_icon_cnt" data_link="http://elfartworld.com/users/218396">
+                        <svg class="al_social_icon" id="elfartworld">
+                            <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_elfartworld"></use>
                         </svg>
                     </div>
                     
