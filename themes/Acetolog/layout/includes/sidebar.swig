@@ -84,6 +84,15 @@
                             <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_lofter"></use>
                         </svg>
                     </div>
+                    
+                    {# lofter widget #}
+                
+                    <div class="al_social_icon_cnt" data_link="https://deceased0.lofter.com/">
+                        <svg class="al_social_icon" id="lofter">
+                            <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_lofter"></use>
+                        </svg>
+                    </div>
+                    
                 </div>
             </div>
             
