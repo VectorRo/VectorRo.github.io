@@ -23,7 +23,7 @@
             
             <div class="al_sidebar_contact_info">
                 <h4>GET IN TOUCH</h4>
-                <p> </p>
+                <p>nanonona@163.com</p>
 
                 <div class="dis_flex al_sidebar_social_widget">
                     {# Facebook widget #}
@@ -46,7 +46,7 @@
 
                     {# weibo widget #}
                     {% if theme.contact.weibo.enable === true %}
-                        <div class="al_social_icon_cnt" data_link="https://weibo.com/{{ theme.contact.weibo.username }}/">
+                        <div class="al_social_icon_cnt" data_link="https://weibo.com/7604476664/">
                             <svg class="al_social_icon" id="weibo">
                                 <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_weibo"></use>
                             </svg>
@@ -71,13 +71,11 @@
                     
 
                     {# twitter widget #}
-                    {% if theme.contact.twitter.enable === true %}
-                        <div class="al_social_icon_cnt" data_link="https://www.twitter.com/{{ theme.contact.twitter.username }}/">
+                        <div class="al_social_icon_cnt" data_link="https://www.twitter.com/vector_hub">
                             <svg class="al_social_icon" id="twitter">
                                 <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_twitter"></use>
                             </svg>
                         </div>
-                    {% endif %}
                 </div>
             </div>
             
