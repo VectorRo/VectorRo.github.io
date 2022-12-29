@@ -17,13 +17,13 @@
             <div class="al_sidebar_author_info">
                 <h4>{{ config.author }}</h4>
                 <img class="al_sidebar_avatar" src="https://s2.loli.net/2021/12/07/qDFfLcmCxE15jwZ.png">
-                <p>来自界外的不明生物。热爱睡觉，讨厌重复劳动。为了生存和明天的晚餐，正在不断创造价值与新事物。愿望是同人类相安无事。理想是让地球变得更好。</p>
+                <p>来自界外的不明生物。热爱睡觉，讨厌重复劳动。为了生存和明天的晚餐，正在不断创造价值与新事物。愿望是同人类相安无事，理想是让地球变得更好。</p>
             </div>
 
             
             <div class="al_sidebar_contact_info">
                 <h4>GET IN TOUCH</h4>
-                <p>期待与您进行一场透彻而无用的讨论 nanonona@163.com</p>
+                <p>期待与您进行一场透彻而无用的讨论。 vectorro@outlook.com</p>
 
                 <div class="dis_flex al_sidebar_social_widget">
                     {# Facebook widget #}
@@ -71,11 +71,11 @@
                     
 
                     {# twitter widget #}
-                        <div class="al_social_icon_cnt" data_link="https://www.twitter.com/vector_hub">
-                            <svg class="al_social_icon" id="twitter">
-                                <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_twitter"></use>
-                            </svg>
-                        </div>
+                    <div class="al_social_icon_cnt" data_link="https://www.twitter.com/vector_hub">
+                        <svg class="al_social_icon" id="twitter">
+                            <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_twitter"></use>
+                        </svg>
+                    </div>
 
                     {# lofter widget #}
                 
@@ -92,7 +92,7 @@
                             <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_lofter"></use>
                         </svg>
                     </div>
-                    
+
                 </div>
             </div>
             
