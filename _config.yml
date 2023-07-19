@@ -119,8 +119,10 @@ favicon:
 # Contact_Info
 # Contact info will be shown on the side bar.
 
+
+# 20230719 close the contact box by set 'enable : true to false'
 contact:
-  enable: true
+  enable: false
   description: 'Contact Info description'
 
   twitter:

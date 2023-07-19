@@ -44,56 +44,11 @@
                         </div>
                     {% endif %}
 
-                    {# weibo widget #}
-                    {% if theme.contact.weibo.enable === true %}
-                        <div class="al_social_icon_cnt" data_link="https://weibo.com/7604476664/">
-                            <svg class="al_social_icon" id="weibo">
-                                <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_weibo"></use>
-                            </svg>
-                        </div>
-                    {% endif %}
 
-                    {# github widget #}
-                
-                    <div class="al_social_icon_cnt" data_link="https://www.github.com/vectorro">
-                        <svg class="al_social_icon" id="github">
-                            <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_github"></use>
-                        </svg>
-                    </div>
 
-                    {# elfartworld widget #}
-                
-                    <div class="al_social_icon_cnt" data_link="http://elfartworld.com/users/218396">
-                        <svg class="al_social_icon" id="elfartworld">
-                            <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_elfartworld"></use>
-                        </svg>
-                    </div>
-                    
 
-                    {# twitter widget #}
-                    <div class="al_social_icon_cnt" data_link="https://www.twitter.com/vector_hub">
-                        <svg class="al_social_icon" id="twitter">
-                            <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_twitter"></use>
-                        </svg>
-                    </div>
 
-                    {# lofter widget #}
-                
-                    <div class="al_social_icon_cnt" data_link="https://runninginbox.lofter.com/">
-                        <svg class="al_social_icon" id="lofter">
-                            <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_lofter"></use>
-                        </svg>
-                    </div>
-                    
-                    {# lofter widget #}
-                
-                    <div class="al_social_icon_cnt" data_link="https://deceased0.lofter.com/">
-                        <svg class="al_social_icon" id="lofter">
-                            <use xmlns="http://www.w3.org/2000/svg" xlink:href="/assets/svg_icons.svg#icon_lofter"></use>
-                        </svg>
-                    </div>
-
-                </div>
+                </div> 
             </div>
             
         </div>
