@@ -17,13 +17,13 @@
             <div class="al_sidebar_author_info">
                 <h4>{{ config.author }}</h4>
                 <img class="al_sidebar_avatar" src="https://s2.loli.net/2021/12/07/qDFfLcmCxE15jwZ.png">
-                <p>来自平凡生活的概念杂合体。热爱睡觉，讨厌重复劳动。为了生存和明天的晚餐，正在不断创造价值与新事物。特点是混沌开放，常态是过度思考，愿望是活在当下，理想是变得更加环保。</p>
+                <p>来自平凡生活的鹅氏综合征。热爱睡觉，讨厌重复劳动。为了生存和明天的晚餐，正在不断创造价值与新事物。特点是混沌开放，常态是过度思考，愿望是活在当下，理想是变得更加环保。</p>
             </div>
 
             
             <div class="al_sidebar_contact_info">
                 <h4>GET IN TOUCH</h4>
-                <p>期待与您进行一场透彻或随意的讨论。 vectorro@outlook.com</p>
+                <p>期待与你进行一场随意或严肃的讨论。 vectorro@outlook.com</p>
 
                 <div class="dis_flex al_sidebar_social_widget">
                     {# Facebook widget #}
