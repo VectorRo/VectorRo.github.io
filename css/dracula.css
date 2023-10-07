@@ -14,6 +14,18 @@ http://zenorocha.mit-license.org
 
 */
 
+/*
+防止文字浮动
+
+.clearfix:after{
+  content :"";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+*/
+
 .hljs {
   display: block;
   overflow-x: auto;
@@ -74,3 +86,12 @@ http://zenorocha.mit-license.org
 .hljs-emphasis {
   font-style: italic;
 }
+
+img[src*="#w75"] {
+  
+  width: 75%;
+  height: 75%;
+  
+  
+  
+  }
