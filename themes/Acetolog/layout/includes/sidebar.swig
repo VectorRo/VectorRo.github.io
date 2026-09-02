@@ -17,7 +17,7 @@
             <div class="al_sidebar_author_info">
                 <h4>{{ config.author }}</h4>
                 <img class="al_sidebar_avatar" src="https://s2.loli.net/2021/12/07/qDFfLcmCxE15jwZ.png">
-                <p>来自平凡生活的鹅，为了生存和明天的晚餐，正在不断创造价值与新事物。特点是混沌开放，常态是过度解构，愿望是活在当下，理想是长出更多肌肉。</p>
+                <p>来自平凡生活的鹅，为了生存和明天的晚餐，正不断创造价值与新事物。特点是混沌开放，常态是过度解构，愿望是活在当下，理想是长出更多肌肉。</p>
             </div>
 
             
